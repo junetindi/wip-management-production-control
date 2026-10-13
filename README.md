@@ -5,6 +5,10 @@
 
 Built with **Appsmith, Supabase, PostgreSQL, and REST APIs**, this project demonstrates how manufacturing workflows can be represented in a structured business application.
 
+## Application Preview
+
+![WIP Management & Production Control System](Screenshot%202026-10-12%20210135.png)
+
 ## Overview
 
 Manufacturing operations require reliable visibility into material issuance, production progress, quality losses, and finished goods. When these activities are difficult to track across production stages, reconciling quantities and identifying outstanding work becomes more challenging.
@@ -59,7 +63,7 @@ The workflow reflects different processing routes depending on the product finis
 
 The application follows a straightforward client-to-database architecture:
 
-**User → Appsmith interface → REST API → Supabase/PostgreSQL**
+**User → Appsmith interface → Supabase REST API → PostgreSQL database**
 
 1. Users interact with production records through the Appsmith interface.
 2. Application queries retrieve or update data through the Supabase REST API.
@@ -81,7 +85,8 @@ This structure demonstrates the integration of a business application interface 
 
 ## Technology Demonstration
 
-**Live application walkthrough:**  
+**Live application walkthrough:**
+
 [Watch the WIP Tracker demonstration](https://www.loom.com/share/8bfa3fccfa574576a6ed1c230f98c2ca)
 
 The walkthrough demonstrates the application interface and selected production-tracking workflows.
