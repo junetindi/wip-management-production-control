@@ -7,7 +7,6 @@ Built with **Appsmith, Supabase, PostgreSQL, and REST APIs**, this project demon
 
 ## Application Preview
 
-![WIP Management & Production Control System](Screenshot%202026-10-12%20210135.png)
 
 ## Overview
 
